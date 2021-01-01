@@ -24,10 +24,8 @@ int main()
     int ar[n];
     
 //Taking Input from user i.e, numbers(1,2,3,4,...,)
-    for(int i=0 ; i<n;i++)
-    {
-        cin>>ar[i];
-    }
+ 
+    sum = n(n+1)/2;
     
 //Calculating the sum of the number in the array
     sum1 = accumulate(ar,ar+n,sum1);
